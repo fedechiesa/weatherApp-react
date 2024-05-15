@@ -1,0 +1,59 @@
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(69, 18, 189);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transform: 1s all ease;
+
+}
+
+button:hover{
+    background-color:rgb(93, 70, 224) ;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+img{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+@media (max-width:900px){
+    .container{
+        max-width: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
