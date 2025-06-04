@@ -1,40 +1,63 @@
-WeatherApp React
-Aplicación del clima desarrollada con ReactJS y Vite, que permite consultar el clima actual de diferentes ciudades utilizando la API de OpenWeatherMap.
+# ⛅ Weather App React
 
-🌤️ Características
-Búsqueda de ciudades para obtener información climática
+Aplicación web desarrollada con **ReactJS** que permite consultar el clima actual de cualquier ciudad del mundo utilizando la API de **OpenWeatherMap**.
 
-Visualización de temperatura, humedad y condiciones climáticas
+---
 
-Diseño responsivo para diferentes dispositivos
+## 🧰 Tecnologías utilizadas
 
-Integración con la API de OpenWeatherMap
+- **ReactJS**
+- **Vite**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
 
-🛠️ Tecnologías utilizadas
-ReactJS
+---
 
-Vite
+## 🌦️ Funcionalidades
 
-JavaScript
+- 🔍 Búsqueda de clima por ciudad  
+- 📍 Visualización de temperatura, humedad, viento, y condiciones del clima  
+- 📱 Interfaz responsiva y fácil de usar
 
-HTML5
+---
 
-CSS3
+## 🛠️ Instalación y ejecución
 
-🚀 Instalación y ejecución
-Clonar el repositorio:
-git clone https://github.com/fedechiesa/weatherApp-react.git
+1. **Clonar el repositorio:**
 
-2. Navegar al directorio del proyecto:
-cd weatherApp-react
+   ```bash
+   git clone https://github.com/fedechiesa/weatherApp-react.git
+   ```
 
-3. Instalar las dependencias:
-npm install
+2. **Navegar al directorio del proyecto:**
 
-4. Crear un archivo .env en la raíz del proyecto y agregar tu clave de API de OpenWeatherMap:
-VITE_API_KEY=tu_clave_de_api
+   ```bash
+   cd weatherApp-react
+   ```
 
-5. Iniciar la aplicación:
-npm run dev
+3. **Instalar las dependencias:**
 
-6. Abrir el navegador en http://localhost:5173 para ver la aplicación en funcionamiento.
+   ```bash
+   npm install
+   ```
+
+4. **Crear un archivo `.env` en la raíz del proyecto** y agregar tu clave de API de OpenWeatherMap:
+
+   ```env
+   VITE_API_KEY=tu_clave_de_api
+   ```
+
+5. **Iniciar la aplicación:**
+
+   ```bash
+   npm run dev
+   ```
+
+6. **Abrir el navegador en** [http://localhost:5173](http://localhost:5173) **para ver la aplicación en funcionamiento.**
+
+---
+
+## 📝 Licencia
+
+Este proyecto se encuentra bajo la licencia MIT.
